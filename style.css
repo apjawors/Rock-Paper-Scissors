@@ -65,3 +65,17 @@ body {
 #scissors {
     font-size: 100px;
 }
+
+#rock, #paper, #scissors {
+    transition: transform .15s;
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+    transform: scale(1.2)
+}
+
+.score-container {
+    position: fixed;
+    top: 0;
+    margin-left: 0;
+}
